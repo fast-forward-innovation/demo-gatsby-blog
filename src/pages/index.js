@@ -5,8 +5,8 @@ import Layout from '../components/layout.js';
 export default function IndexPage() {
   return (
     <Layout>
-      <h1>Hello Karen's Blog!</h1>
-      <Link to='/about'>About Karen</Link>
+      <h1>Welcome to Karen's Blog!</h1>
+      <Link to='/blog'>Go to Blog</Link>
     </Layout>
   )
 }

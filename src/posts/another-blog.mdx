@@ -1,0 +1,16 @@
+---
+date: 2023-02-21
+title: Current Situation
+description: Working on some plugin configurations
+---
+
+# Where am I at?
+
+In gatsby-config.js, I added some plugin configurations, so that:
+
+- the posts folder in src can work as a page folder (where gatsby looks for pages by default), so Gatsby can find them and load them to GraphQL
+- the file in the pages folder (blog posts) can be turned into pages with their own address that matches the name of the file
+- plain old files can be changed into MDX node
+
+I am currently working to apply my Layout component to all of my blog posts. I tried configuring the gatsby-plugin-mdx in gatsby-config.js, 
+but realize defaultLayouts is removed since version 3 (I'm on version 5). As I'm doing this, I wonder if I should make a template for my blogs.

@@ -2,9 +2,8 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout.js';
 
-export default function Blog({ data }) {
-  const { posts } = data.blog
-  console.log(posts)
+export default function Blog() {
+  
   return (
     <Layout
       title="Blog"
